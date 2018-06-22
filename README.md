@@ -2,7 +2,7 @@
 
 ## Example
 
-This is a basic example of a page with a text and two input fields. The user replace some part of the text with a custom string. 
+This is a basic example of a page with a text and two input fields. The user can replace some custom part of the text with a custom string. 
 
 ```html
 <h2>Example</h2>
@@ -15,7 +15,7 @@ This is a basic example of a page with a text and two input fields. The user rep
 <p id="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 ```
 
-By clicking the button, the systems search the text for the string in the first input and replaces it for the text in the second input. When the replacement is done, a message appears informing about it.
+By clicking the button, the systems search inside the paragraph text for the string in the first input and replaces it for the text in the second input. When the replacement is done, a message appears informing about it.
 
 The code in the component is very simple. It just responds to the click button making a call to the function *replace()*.
 
